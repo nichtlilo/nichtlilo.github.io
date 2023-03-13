@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: 25px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #FFFDD0;
+}
+
+.KreisL {
+    background-color: #838C8E;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50%;
+    top:  -225px;
+    left: -225px;
+}
+
+
+
+body {
+    background-color:  #06191D;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.relationship {
+    color: #FFFDD0;
+    font-weight: 500;
+}
+
+.container {
+    margin-top: auto;
+    margin-left: auto;
+    max-width: auto;
+    max-height: auto;
+}
+.container2 {
+    margin-top: 270px;
+    margin-left: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.container3 {
+    margin-top: 270px;
+    margin-left: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Bild1 {
+    max-width: 80%;
+    display: block;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 5px 5px 25px black;
+}
+
+.Bild1:hover {
+    background: #838C8E;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.Bild2 {
+    max-width: auto;
+    display: block;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 5px 5px 25px black;
+}
+
+.Bild2:hover {
+    background: #838C8E;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.Bild3 {
+    max-width: auto;
+    display: block;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 5px 5px 25px black;
+}
+
+.Bild3:hover {
+    background: #838C8E;
+    opacity: 0.4;
+    transition: 0.5s all ease-in-out;
+}
+
+p {
+    color: #FFFDD0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    opacity: 50%;
+}
+
+.menu-active-menu {
+    color: #FFFDD0;
+}
