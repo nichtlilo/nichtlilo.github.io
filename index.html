@@ -2,83 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/38b873eea8.js" crossorigin="anonymous"></script>
-    <script src="progressbar.js"></script>
-    <title>J. Fiedler Portfolio</title>
+    <title>Document</title>
 </head>
 <body>
     
-
-
-    <div id="progress-bar"></div>
-    <div id="particles-js"></div>
-
-
-        <div class="landingpage">
-            <div class="titleWrap" id="section1" class="wrapper">
-                <div class="title" class="">
-                    <h1>Hi, ich bin Justin</h1>
-                </div>
-                <div class="icons">
-                <a href="https://codepen.io/nichtlilo"><i class="fa-brands fa-codepen"></i></a>
-                <a href="https://github.com/nichtlilo"><i class="fa-brands fa-square-github"></i></a>
-                <a href="mailto:­fiedler.justin@t-online.de"><i class="fa-solid fa-envelope"></i></a>
-                </div>    
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#" class="navbar-link">
+                    <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                    <span class="navbar-email">fiedler.justin@icloud.com</span>
+                  </a>
             </div>
+
+            <div class="navbar-right">
+              <a href="#" class="navbar-link">Link</a>
+              <a href="#" class="navbar-link">Link</a>
+              <a href="#" class="navbar-link">Link</a>
+            </div>
+
+          </nav>          
+    </header>
+
+
+
+        <div class="container">
+            <div class="circle"></div>
+            <p class="intro-text">Hi, ich bin Justin 👋🏻</p>
         </div>
 
-
-<!-- Animated Scroll Down -->
-
-
-        <div class="scroll">
-            <a href="#section2"><i class="fa-solid fa-arrow-down"></i></a>
-        </div>
-
-
-<!-- Die Über mich… Section -->
-
-
-        <section class="sec2" id="section2">
+        <div class="container2">
             
-                <span class="aboutmetext">Über mich...</span>
-                <p>Ich bin ein aufgeschlossener Mensch, der schnell und gerne viel neues lernt. 
-                   Aktuell beschäftige ich mit sehr <br> viel mit Webdesign, sei es JavaScript 
-                   oder verschiedene Frameworks wie Tailwind CSS oder Three.js, auch wenn <br>
-                   meine Kenntnisse noch die eines Anfängers gleichen, werde ich trotzdem 
-                   dranbleiben und mein Wissen verfeinern.
-                </p>
- 
-        </section>
-
-
-<!-- Werke Sektion -->
-
-
-            <div class="werkewrapper">
-                <h1>Meine Projekte</h1>
-                <div class="container" id="container">
-                <div class="box">
-                    <a href="https://codepen.io/nichtlilo/pen/qBMxKjd"> <img src="testbild.jpg" alt=""> </a>
-                    <p>ToDo List</p> <a href="https://codepen.io/nichtlilo/pen/qBMxKjd"><p  style="text-decoration-line: underline;">Code</p></a>
-                </div>
-        
-                <div class="box">
-                   <a href="https://codepen.io/nichtlilo/pen/BaOYVYY"> <img src="testbild2.jpg" alt=""> </a>
-                   <p>Rechnung aufteilen</p> <a href="https://codepen.io/nichtlilo/pen/BaOYVYY"><p  style="text-decoration-line: underline;">Code</p></a>
-                </div>
-                <div class="box">
-                   <a href="/Portfolio Website/index.html" target="_blank"> <img src="testbild3.jpg" alt=""> </a>
-                   <p>Schulklausur Website</p> <a href="/Portfolio Website/index.html" target="_blank"><p  style="text-decoration-line: underline;">Code</p></a>
-                </div>
-                </div>
+            <p class="experience">Erfahrungen habe ich bereits…</p>
+            
+            <div class="widebox">
+                <img src="icons/erfahrung.svg" alt="">
+                <img src="icons/Group 12.svg" alt="">
+                <img src="icons/Group 13.svg" alt="">
+                <img src="icons/illustrator.svg" alt="">
+                <img src="icons/indesign.svg" alt="">
+                <img src="icons/photoshop.svg" alt="">
             </div>
-    
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+
+            <h1>Über mich…</h1>
+            <p class="aboutme">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et justo 
+                duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+                ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero 
+                eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <h2>Meine Arbeiten…</h2>
+
+        <div class="container3">
+            <a href="werk_1.html"> <img src="work/todoliste.jpg" alt=""> </a>
+            <a href="werk_2.html"> <img src="work//ersteseite.jpg" alt=""> </a>
+            <a href="werk_3.html"> <img src="work/rechnungsteiler.jpg" alt=""> </a>
+            <a href="werk_4.html"> <img src="work/biografienatelier.jpg" alt=""> </a>
+            <a href="werk_5.html"> <img src="work/Shopseite.jpg" alt=""> </a>
+            <a href="werk_6.html"> <img src="work/ihk_prüfungsseite.jpg" alt=""> </a>
+            <a href="werk_7.html"> <img src="work/übungsaufgabe.jpg" alt=""> </a>
+            <a href="werk_8.html"> <img src="work/Musterbogen.jpg" alt=""> </a>
+            <a href="werk_9.html"> <img src="work/printaufgabe.jpg" alt=""> </a>
+        </div>
+
+        <footer>
+            <div class="navbar-left">
+                    <span id="copyright" class="navbar-email">&copy; Alle Rechte vorbehalten</span>
+            </div>
+            
+            <div class="navbar-right">
+                <a href="#" class="navbar-link">Link</a>
+                <a href="#" class="navbar-link">Link</a>
+                <a href="#" class="navbar-link">Link</a>
+              </div>
+        </footer>
 
 </body>
 </html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-image: url(BG-Tx-1.svg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #1c1c1c;
+ }
+ 
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     padding-left: 75px;
+     padding-right: 75px;
+     padding-top: 50px;
+   }
+   
+   .navbar-left {
+     margin-right: auto;
+   }
+ 
+   .navbar-right a {
+     padding: 0 15px;
+   }
+   
+   .navbar-link {
+     font-weight: 300;
+     color: white;
+     text-decoration: none;
+   }
+   
+   .navbar-link:hover {
+     text-decoration: underline;
+   }
+   
+   .navbar-email {
+     margin-left: 5px;
+   }
+ 
+   .navbar-link:not(:last-child)::after {
+     content: "/";
+     margin-left: 20px;
+     color: #fff;
+   }
+
+
+
+
+
+
+
+.project {
+    min-height: 100vh;
+    display: flex;
+}
+
+img {
+    border: 1px solid #f6f6f6;
+}
+
+.imgBox {
+    padding-left: 75px;
+    margin-top: 200px;
+}
+
+.textBox {
+    margin-top: 200px;
+    color: #fff;
+    padding-left: 25px;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.textBox p {
+    width: 450px;
+    font-weight: 300;
+    padding-top: 35px;
+    line-height: 21px;
+}
+
+
+.myButton {
+    margin-top: 25px;
+	background-color:#f6f6f6;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#1c1c1c;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 46px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    background-color: #1c1c1c;
+    padding-left: 75px;
+    padding-right: 75px;
+    border: 2px solid rgba(98, 98, 98, .2);
+    border-style: solid none none none;
+}
+
+#copyright {
+    font-weight: 300;
+}
