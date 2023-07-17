@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
 
 body {
     background-image: url(BG-Tx-1.svg);
@@ -15,6 +19,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #1c1c1c;
+    min-height: 80vh;
  }
  
  .navbar {
@@ -131,3 +136,72 @@ footer {
 #copyright {
     font-weight: 300;
 }
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .textBox {
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 75px;
+  }
+  
+}
+
+@media (max-width: 620px) {
+  .imgBox {
+    width: 90%;
+  }
+
+  .imgBox img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 750px) {
+  .widebox {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .aboutme {
+    width: 550px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inline-block;
+  }
+
+  .navbar-link span {
+    display: none;
+  }
+
+  #copyright {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 530px) {
+  .textBox p {
+    width: 250px;
+  }
+}
+
+
