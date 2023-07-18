@@ -81,7 +81,8 @@ img {
 .textBox {
     margin-top: 200px;
     color: #fff;
-    padding-left: 25px;
+    margin-left: -200px;
+    padding-right: 75px;
 }
 
 h1 {
@@ -99,7 +100,7 @@ h1 {
 
 
 .myButton {
-    margin-top: 25px;
+  margin-top: 25px;
 	background-color:#f6f6f6;
 	border-radius:10px;
 	display:inline-block;
@@ -142,6 +143,12 @@ footer {
 }
 
 @media (max-width: 1080px) {
+
+  .textBox {
+    margin-left: 0;
+    padding-right: 0; 
+  }
+
   .project {
     flex-direction: column;
   }
